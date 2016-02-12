@@ -10,7 +10,7 @@ public class AppConfig {
 	@Bean
 	public Batsman sachin(){
 		return Batsman.builder()
-				.id(3)
+				.id(10)
 				.name("Sachin Tendulkar")
 				.build();
 	}
